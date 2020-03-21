@@ -1,0 +1,27 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(218, 224, 235,0.5);
+    border: 0.5px solid rgba(192, 212, 250,0.4);
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+.pic{
+    border-radius: 5px;
+}
+.email{
+    margin-top: 3px;
+}
+h4{
+    margin-bottom: 3px;
+}
+
+
+.card-container:hover {
+transform: scale(1.05);
+}
